@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: center;
+    grid-gap: 0px; 
+    margin-top: 50px;
+    justify-content: center;
+}
+span {
+    font-family: arial;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    border: 5px solid black;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+#Espaco0{
+    border-bottom: 5px solid white;
+}
+#Espaco1 {
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#Espaco2 {
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#Espaco3 {
+    border-bottom: 5px solid white;
+
+}
+#Espaco4 {
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+
+}
+#Espaco5 {
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#Espaco7 {
+    border-left: 5px solid white;
+}
+#Espaco8 {
+    border-left: 5px solid white;
+}
